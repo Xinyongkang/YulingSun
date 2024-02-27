@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuling Sun</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./common.js"></script>
+</head>
+
+<body>
+  <header id="header">
+    <h1>Yuling Sun</h1>
+    <div class="menu-container">
+      <span onclick="changeMenu(0)">Home</span>
+      <span class="active" onclick="changeMenu(null)">News</span>
+      <span onclick="changeMenu(2)">Publication</span>
+      <span onclick="changeMenu(3)">Projects</span>
+      <span onclick="changeMenu(4)">Teaching</span>
+      <span onclick="changeMenu(5)">Students</span>
+      <span onclick="changeMenu(6)">Personal Life</span>
+      <span onclick="changeMenu(7)">Contact</span>
+    </div>
+  </header>
+  <main id="main">
+    <section id="userInfo">
+      <img src="./img/homepage.png">
+      <p class="username">Yuling Sun</p>
+      <p>Associate Professor</p>
+      <p>East China Normal University</p>
+      <div class="icon-box">
+        <img class="icon" src="./img/icon/icon1.png">
+        <img class="icon" src="./img/icon/icon2.png">
+        <img class="icon" src="./img/icon/icon3.png">
+        <img class="icon" src="./img/icon/icon4.png">
+      </div>
+    </section>
+    <section id="content">
+      <div class="title" style="margin:0">
+        <img src="./img/icon/news1.png">
+        <p>Latest News</p>
+      </div>
+      <ul>
+        <li>Jan 2024. Our paper “Technology-Mediated Non-pharmacological Interventions for Dementia” have been
+          conditionally accepted by CHI2024!
+        </li>
+        <li>Jan 2024. Our paper “Unpacking ICT-supported Social Connections and Support of Late-life Migration” have
+          been conditionally accepted by CHI2024!
+        </li>
+        <li>Oct 2023. Our paper "Data Work of Frontline Care Workers" received the "Impact Recognition" Award @ CSCW
+          2023!
+        </li>
+        <li>Oct 2023. Our paper "Care Workers' Workplace Wellbeing" received the "Recognition for Contribution to
+          Diversity and Inclusion" Award @ CSCW 2023!
+        </li>
+        <li>Sep 2023. I am honored to be invited to give a talk in UNESCO Digital Learning Week.
+        </li>
+        <li>June 2023. Our Project “Family Smart Care Center” received “Second Prize for Shanghai Technological
+          Progress”!
+        </li>
+        <li>April 2023. Two papers have been accepted by CSCW 2023!
+        </li>
+      </ul>
+      <div class="title">
+        <img src="./img/icon/news2.png">
+        <p>Recent & Upcoming Talks</p>
+      </div>
+      <ul>
+        <li>Jan 2024. Unpacking Technology-Mediated Collaborative Care for People with Dementia, DKU, Kunshan, China.
+        </li>
+        <li>Jan 2024. AIGC-based Long-term Care Solution. China Smart Healthcare Innovation Forum, Shanghai, China.
+        </li>
+        <li>Oct 2023. Family Wisdom Care. Sci-Tech Intelligent Health Forum, Beijing, China.
+        </li>
+        <li>Sep 2023. EduChat: A Large-Scale Language Model-based Chatbot System for Intelligent Education, UNESCO
+          Digital Learning Week, Paris, France.
+        </li>
+        <li>Sep 2022. Artificial Intelligence for the Elderly. 2022 World Artificial Intelligence Conference, Shanghai,
+          China.
+        </li>
+      </ul>
+      <div class="title">
+        <img src="./img/icon/news3.png">
+        <p>Selected Awards</p>
+      </div>
+      <ul>
+        <li>Recognition for Contribution to Diversity and Inclusion Award. Care Workers' Wellbeing in Data-Driven
+          Healthcare Workplace: Identity, Agency, and Social Justice, ACM CSCW 2023, 1/4.
+        </li>
+        <li>Impact Recognition Award. Data Work of Frontline Care Workers: Practices Problems and Opportunities in the
+          Context of Data-Driven Long-Term Care ACM CSCW 2023, 1/4.
+        </li>
+        <li>Second Prize for Shanghai Technological Progress. Family Smart Care Center: Data-Driven Inclusive Long-Term
+          Care Platform for Elderly in Family Settings, 2022, 1/10.
+        </li>
+        <li>Best Paper Award @CSCW. Reliving the past & making a harmonious society today, ACM CSCW 2015, 1/5.
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer id="footer">
+    <p>Data Work of Frontline Care Workers: <a
+        href="https://dl.acm.org/doi/abs/10.1145/3579475">https://dl.acm.org/doi/abs/10.1145/3579475</a>
+    </p>
+    <p>Care Workers' Workplace Wellbeing: <a href="https://dl.acm.org/doi/abs/10.1145/3610178">https://dl.acm.org/doi/abs/10.1145/3610178</a>
+    </p>
+    <p>Reliving the past & making a harmonious society today: <a href="https://dl.acm.org/doi/abs/10.1145/2675133.2675195">https://dl.acm.org/doi/abs/10.1145/2675133.2675195</a></p>
+    </p>
+
+  </footer>
+</body>
+
+</html>
+<style>
+  .title {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    ;
+    align-items: center;
+  }
+
+  .title>p {
+    font-weight: 700;
+  }
+
+  .title>img {
+    margin-right: 10px;
+    width: 30px;
+  }
+
+  li {
+    margin-left: 18px;
+    margin-top: 10px;
+  }
+</style>

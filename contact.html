@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuling Sun</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./common.js"></script>
+</head>
+
+<body>
+  <header id="header">
+    <h1>Yuling Sun</h1>
+    <div class="menu-container">
+      <span onclick="changeMenu(0)">Home</span>
+      <span onclick="changeMenu(1)">News</span>
+      <span onclick="changeMenu(2)">Publication</span>
+      <span onclick="changeMenu(3)">Projects</span>
+      <span onclick="changeMenu(4)">Teaching</span>
+      <span onclick="changeMenu(5)">Students</span>
+      <span onclick="changeMenu(6)">Personal Life</span>
+      <span class="active" onclick="changeMenu(null)">Contact</span>
+    </div>
+  </header>
+  <main id="main">
+    <section id="userInfo">
+      <img src="./img/homepage.png">
+      <p class="username">Yuling Sun</p>
+      <p>Associate Professor</p>
+      <p>East China Normal University</p>
+      <div class="icon-box">
+        <img class="icon" src="./img/icon/icon1.png">
+        <img class="icon" src="./img/icon/icon2.png">
+        <img class="icon" src="./img/icon/icon3.png">
+        <img class="icon" src="./img/icon/icon4.png">
+      </div>
+    </section>
+    <section id="content">
+      <div class="title" style="margin:0">
+        <p>Email:</p>
+      </div>
+      <p>ylsun@cs.ecnu.edu.cn</p>
+      <div class="title">
+        <p>ECNU Office:</p>
+      </div>
+      <p>B707, Science Building 3663, North Zhongshan Road, Shanghai, China 200062</p>
+      <div class="title">
+        <p>AI4Care Lab Office:</p>
+      </div>
+      <p>704, 18 Yingchi Office Building 597, Langao Road, Shanghai, China 200061</p>
+    </section>
+  </main>
+</body>
+
+</html>
+<style>
+  .title {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    ;
+    align-items: center;
+  }
+
+  .title>p {
+    font-weight: 700;
+  }
+
+  .title>img {
+    margin-right: 10px;
+    width: 30px;
+  }
+
+  li {
+    margin-left: 18px;
+    margin-top: 10px;
+  }
+</style>
